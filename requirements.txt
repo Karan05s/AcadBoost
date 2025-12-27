@@ -1,0 +1,34 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database dependencies
+motor==3.3.2  # Async MongoDB driver
+pymongo==4.6.0
+redis==5.0.1
+
+# AWS dependencies
+boto3==1.34.0
+botocore==1.34.0
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+
+# Authentication
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+
+# Machine Learning dependencies
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+hypothesis==6.92.1
+
+# Monitoring and logging
+structlog==23.2.0
+psutil==5.9.6
